@@ -1,0 +1,37 @@
+{% extends "users/base.html" %}
+{% block content %}
+{% load static %}
+<div class="card">
+    <img src="{% static 'users/images/home.jpg' %}" class="card-img-top" alt="...">
+    
+    <div class="card-body">
+    <h2 class="card-title">Demand more from your business solution, not your budget.</h2>
+    <p class="card-text">When engaging With IdealBiz as an SME, You can view real-time details of your
+        business status including growth and efficiency, monitor
+        activities. To name a few, these include the current volume
+        of sales, sale invoicing, payment status,inventory, financial reports (P
+        or L, trail balance e.t.c), cash flows, Expenses and Payment Tracking,
+        comprehensive chart of account, customer account, vendor
+        account, payable account and receivable account regardless
+        of how complex your business process is.</p>
+    <a href="#" class="btn btn-primary">View Orders</a>
+    </div>
+</div>
+{% endblock content %}
+
+{% block side_content  %}
+    
+<div class="card">
+    <img src="{% static 'users/images/home2.jpg' %}" class="card-img-top" alt="...">
+
+    <div class="card-body">
+    <h5 class="card-title">Increase profitability and reduce overhead</h5>
+    <p class="card-text">Customized ERP solution for SME's that enable critical business decision and
+     automating business processes to ensure efficiency and performance</p>
+
+     <p>Email: dellismamella@yahoo.com</p>
+    <a href="#" class="btn btn-primary">Contact Us</a>
+    </div>
+</div>
+
+{% endblock  %}
