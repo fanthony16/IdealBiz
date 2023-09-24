@@ -133,8 +133,8 @@ EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = "staiwo.owiats@gmail.com"
-EMAIL_HOST_PASSWORD = "pfrc nzbs lxai rmxh"
+EMAIL_HOST_USER = os.environ.get("username")
+EMAIL_HOST_PASSWORD = os.environ.get("password")
 #EMAIL_FILE_PATH = BASE_DIR / "sent_emails"
 
 # Default primary key field type
